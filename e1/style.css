@@ -1,0 +1,104 @@
+      .div1 {
+        position: absolute;
+        width: 220px;
+        height: 250px;
+        padding: 50px;
+        top: 33px;
+          left: 979px;
+          box-sizing: border-box;
+        border: 3px solid #000000;
+        background-image: linear-gradient(rgb(74, 235, 133), yellow, rgb(200, 30, 174))
+      }
+
+      
+      .div2 {
+        position: absolute;
+        width: 370px;
+        height: 250px;
+        top: 33px;
+          left: 605px;
+          box-sizing: border-box;
+        border: 3px solid #000000;
+        background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+      }
+
+      .div3 {
+        position: absolute;
+        width: 355px;
+        height: 200px;
+        padding: 50px;
+        top: 295px;
+          left: 605px;
+          box-sizing: border-box;
+        border: 3px solid #000000;
+        background-image: linear-gradient(rgb(49, 34, 188), rgb(203, 203, 39));
+      }
+      
+      .div4 {
+        position: absolute;
+        width: 355px;
+        height: 70px;
+        padding: 50px;
+        top: 507px;
+          left: 605px;
+          box-sizing: border-box;
+        border: 3px solid #000000;
+        background-image: linear-gradient(to bottom right, red, rgb(0, 179, 255));
+      }
+
+      .div5 {
+        position: absolute;
+        width: 234px;
+        height: 318px;
+        padding: 50px;
+        top: 295px;
+          left: 965px;
+          box-sizing: border-box;
+        border: 3px solid #000000;
+        background-image: linear-gradient(180deg, rgb(0, 217, 255), rgb(216, 32, 124));
+      }
+
+      .div6 {
+        position: absolute;
+        width: 285px;
+        height: 300px;
+        padding: 50px;
+        top: 627px;
+          left: 605px;
+          box-sizing: border-box;
+        border: 3px solid #000000;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(149, 0, 255));
+      }
+
+      .div7 {
+        position: absolute;
+        width: 305px;
+        height: 125px;
+        padding: 50px;
+        top: 627px;
+          left: 895px;
+          box-sizing: border-box;
+        border: 3px solid #000000;
+        background-image: repeating-linear-gradient(rgb(38, 0, 255), rgb(232, 232, 26) 10%, rgb(251, 12, 247) 20%);
+      }
+
+      .div8 {
+        position: absolute;
+        width: 305px;
+        height: 160px;
+        padding: 50px;
+        top: 767px;
+          left: 895px;
+          box-sizing: border-box;
+        border: 3px solid #000000;
+        background-image: conic-gradient(red, rgb(33, 162, 89), rgb(146, 19, 131), rgb(255, 230, 0), rgb(0, 238, 255));
+      }
+
+      /* I used "position: absolute" so that I was able to change the position of the box then I added a "top" and "left" function so that I could move the box in any position that I wanted.
+      /* After I changed the position, I changed the sizing of the box using "height" and "width" to a size that was similar to the reference image.
+      /* The choice of using 3px for the border was because the reference image had slighly thick borders and weren't that thin
+      /* Of course, each "div" was numbered so that I was able to add into the HTML document chronologically and so that it was neat
+      /* The gradients for each box are all different as I wanted to display each individual way you can apply a gradient. After "background-image" you always start with the type of gradient you want aka "linear gradient" etc...
+      /* (cont.) There are three different gradient types: Linear Gradients, Radial Gradients and Conic Gradients.
+      /* (cont2.) then you communicate the positioning of which the gradient is going to be. For example "linear-gradient(180deg," will make the gradient split in half from top to bottom.
+      /* (cont3.) After that you just add the colours that you want the gradient to have. Which is basic as you have access to a colour wheel that can give you specific colour codes.
