@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="./filter.js" defer></script>
+
+    <title>exercise 2</title>
+
+  </head>
+
+  <body>
+
+    <div>Interactive Media 1 Manga List</div>
+
+    <hr /> 
+
+    <div class="FilterSection">     
+
+      <details class="FilterBox">
+        <summary>Author</summary>
+        <button class="FilterButton" onclick='filterCategory("KM", this)'>Kentaro Muira</button>
+        <button class="FilterButton" onclick='filterCategory("ONE", this)'>ONE</button>
+        <button class="FilterButton" onclick='filterCategory("HM", this)'>Hetty McKinnon</button>
+        <button class="FilterButton" onclick='filterCategory("MangaBox", this)'>All Authors</button>
+      </details>
+
+    </div>
+
+    <hr /> 
+
+    <!-- Manga 1 -->
+    <div class="MangaBox KM">
+
+     
+      <a href="url" class="MangaLink">URL: https://myanimelist.net/manga/2/Berserk</a>
+
+      <div class="MangaName">Manga Name: Berserk</div>
+
+      <div class="Author">Author: Kentaro Miura</div>
+      
+      <div class="MangaImageContainer">
+
+        <img class="MangaImg" src="./images/Berserk.webp" alt="Protagonist: Guts" />
+
+      </div>
+
+      <div class="PublisherTitle">Publisher:</div>
+      <div class="Publisher">Hakusensha</div>
+
+      <div class="VolumesTitle">Volumes:</div>
+      <div class="Volumes">41 (364 chapters)</div>
+
+      <div class="AdaptionsTitle">Adaptions:</div>
+      <div class="Adaptions">Berserk (1997) - Anime</div>
+      <div class="Adaptions">Berserk: The Golden Age Arc I - The Egg Of The King (2012) - Anime</div>
+      <div class="Adaptions">Berserk: The Golden Age Arc II - The Battle For Doldrey (2012) - Anime</div>
+      <div class="Adaptions">Berserk: The Golden Age Arc III - The Advent (2013) - Anime</div>
+      <div class="Adaptions">Berserk (2016) - Anime</div>
+
+      <div class="GenreTitle">Genre:</div>
+      <div class="Genre">Action, Adventure, Drama, Fantasy, Horror, Supernatural</div>
+
+      <div class="ThemesTitles">Themes:</div>
+      <div class="Themes">Gore, Military, Mythology, Psychological</div>
+
+      <div class="DemographicTitle">Demographic:</div>
+      <div class="Demographic">Seinen</div>
+
+      <div class="RatingTitle">Personal Rating:</div>
+      <div class="Rating"><span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span></div>
+
+      <div class="StartedTitle">Started:</div>
+      <div class="Started">1989</div>
+
+      <div class="FinishedTitle">Finished: </div>
+      <div class="Finished">Ongoing</div>
+
+    </div>
+    
+    <!-- Manga 2 -->
+    <div class="MangaBox KM">
+
+      
+      <a href="url" class="MangaLink">URL: https://myanimelist.net/manga/1043/Ourou</a>
+
+      <div class="MangaName">Manga Name: King of Wolves</div>
+
+      <div class="Author">Author: Kentaro Miura</div>
+      
+      <div class="MangaImageContainer">
+
+        <img class="MangaImg" src="./images/King of Wolves.jpg" alt="Fake Guts" />
+
+      </div>
+
+      <div class="PublisherTitle">Publisher:</div>
+      <div class="Publisher">Hakusensha</div>
+
+      <div class="VolumesTitle">Volumes:</div>
+      <div class="Volumes">1</div>
+
+      <div class="AdaptionsTitle">Adaptions:</div>
+      <div class="Adaptions">None</div>
+
+      <div class="GenreTitle">Genre:</div>
+      <div class="Genre">Action, Sci-Fi</div>
+
+      <div class="ThemesTitles">Themes:</div>
+      <div class="Themes">Historical, Time Travel</div>
+
+      <div class="DemographicTitle">Demographic:</div>
+      <div class="Demographic">Seinen</div>
+
+      <div class="RatingTitle">Personal Rating:</div>
+      <div class="Rating"><span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star "></span></div>
+
+      <div class="StartedTitle">Started:</div>
+      <div class="Started">February 1989</div>
+
+      <div class="FinishedTitle">Finished: </div>
+      <div class="Finished">February 1989</div>
+
+    </div>
+
+        <!-- Manga 3 -->
+        <div class="MangaBox ONE">
+
+      
+          <a href="url" class="MangaLink">URL: https://myanimelist.net/manga/44347/One_Punch-Man</a>
+    
+          <div class="MangaName">Manga Name: One Punch Man</div>
+    
+          <div class="Author">Author: One</div>
+          
+          <div class="MangaImageContainer">
+    
+            <img class="MangaImg" width="800" height="500"src="./images/OPM.jpg" alt="Saitama" />
+    
+          </div>
+    
+          <div class="PublisherTitle">Publisher:</div>
+          <div class="Publisher">Hakusensha</div>
+    
+          <div class="VolumesTitle">Volumes:</div>
+          <div class="Volumes">1</div>
+    
+          <div class="AdaptionsTitle">Adaptions:</div>
+          <div class="Adaptions">None</div>
+
+          <div class="GenreTitle">Genre:</div>
+          <div class="Genre">Action, Comedy</div>
+
+          <div class="ThemesTitles">Themes:</div>
+          <div class="Themes">Parody, Super Power</div>
+    
+          <div class="DemographicTitle">Demographic:</div>
+          <div class="Demographic">Seinen</div>
+    
+          <div class="RatingTitle">Personal Rating:</div>
+          <div class="Rating"><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span></div>
+    
+          <div class="StartedTitle">Started:</div>
+          <div class="Started">February 1989</div>
+    
+          <div class="FinishedTitle">Finished: </div>
+          <div class="Finished">February 1989</div>
+    
+        </div>
+    

@@ -1,0 +1,149 @@
+
+*{
+  box-sizing: border-box;
+  background-origin: border-box;
+  margin: 0;
+}
+
+
+:root{
+  --col-01:#010b0b;
+  --col-02:#f0f6f0;
+  --col-03:#5252ff;
+  --col-04:#b6e878;
+  --border: 1px solid var(--col-02);
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--col-01);
+  color: var(--col-02);
+  padding: 3vw;
+  border-radius: 100px;
+  border: 5px solid #ff0000;
+}
+
+/* Wanted to add a curved border around so that it looks more put together. Essentially the red box is all of them put together whereas the white boxes are individual pieces of information. I hope that's easy to understand   */
+
+.MangaBox{
+  display: flex;
+  flex-direction: column;
+  border: var(--border);
+}
+
+.FilterSection{
+
+}
+
+.FilterBox{
+
+}
+
+.FilterButton{
+
+}
+
+.SelectedFilter{
+  
+}
+
+
+.MangaName{
+  Font-size: 48px;
+  text-shadow: 2px 2px red;
+}
+
+.Author{
+Font-size: 24px;
+}
+/* Felt like the name and author should've been bigger as they're quite important and the shadow around the manga name makes it standout more as it's the most important detail */
+
+
+.PublisherTitle{
+  Font-size: 22px;
+  color: red;
+}
+
+.Publisher{
+  Font-size: 16px;
+}
+
+
+.VolumesTitle{
+  Font-size: 22px;
+  color: red;
+}
+
+.Volumes{
+  Font-size: 16px;
+}
+
+.AdaptionsTitle{
+  Font-size: 22px;
+  color: red;
+}
+
+.Adaptions{
+  Font-size: 16px;
+}
+
+.DemographicTitle{
+  Font-size: 22px;
+  color: red;
+}
+
+.Demographic{
+  Font-size: 16px;
+}
+
+.GenreTitle{
+  Font-size: 22px;
+  color: red;
+}
+
+.Genre{
+  Font-size: 16px;
+}
+
+.ThemesTitles{
+  Font-size: 22px;
+  color: red;
+}
+
+.Themes{
+  Font-size: 16px;
+}
+
+
+.RatingTitle{
+  Font-size: 22px;
+  color: red;
+}
+
+.Rating{
+  Font-size: 16px;
+}
+
+.StartedTitle{
+  Font-size: 22px;
+  color: red;
+}
+
+.Started{
+  Font-size: 16px;
+}
+
+.FinishedTitle{
+  Font-size: 22px;
+  color: red;
+}
+
+.Finished{
+  Font-size: 16px;
+}
+
+.checked {
+  color: orange;
+}
+/* Wanted to add a star rating so that it looks more appealing than just putting a rating out of 10 or 5 */
