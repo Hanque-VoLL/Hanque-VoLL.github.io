@@ -23,21 +23,40 @@
     <hr /> 
 
     <div class="FilterSection">     
+<!-- I chose these 3 catagories because it makes it easier for the user to navigate what manga they are looking for. 
+For example: let's say I want to read something from a particular author, I would click on the drop down arrow 
+then click on what author I am looking for because I like their style of writing and illustration.
+Same goes with demographic and status, I may only want to read Shonen over Seinen or read something that
+is finished over something that isn't -->
 
       <details class="FilterBox">
         <summary>Author</summary>
         <button class="FilterButton" onclick='filterCategory("KM", this)'>Kentaro Muira</button>
         <button class="FilterButton" onclick='filterCategory("ONE", this)'>ONE</button>
-        <button class="FilterButton" onclick='filterCategory("HM", this)'>Hetty McKinnon</button>
+        <button class="FilterButton" onclick='filterCategory("TI", this)'>Takehiko Inoue</button>
         <button class="FilterButton" onclick='filterCategory("MangaBox", this)'>All Authors</button>
       </details>
 
+      <details class="FilterBox">
+        <summary>Demographic</summary>
+        <button class="FilterButton" onclick='filterCategory("SHO", this)'>Shonen</button>
+        <button class="FilterButton" onclick='filterCategory("SEI", this)'>Seinen</button>
+      </details>
+
+      <details class="FilterBox">
+        <summary>Status</summary>
+        <button class="FilterButton" onclick='filterCategory("ON", this)'>Ongoing</button>
+        <button class="FilterButton" onclick='filterCategory("FIN", this)'>Finished</button>
+      </details>
     </div>
 
     <hr /> 
 
+<!-- I wanted to include brief descriptions of every manga's overall details such as Genre, Themes, how many volumes they have etc...
+I also included a little personal rating just give my opinion on what I thought about the series -->
+
     <!-- Manga 1 -->
-    <div class="MangaBox KM">
+    <div class="MangaBox KM SEI ON">
 
      
       <a href="url" class="MangaLink">URL: https://myanimelist.net/manga/2/Berserk</a>
@@ -90,7 +109,7 @@
     </div>
     
     <!-- Manga 2 -->
-    <div class="MangaBox KM">
+    <div class="MangaBox KM SEI FIN">
 
       
       <a href="url" class="MangaLink">URL: https://myanimelist.net/manga/1043/Ourou</a>
@@ -139,7 +158,7 @@
     </div>
 
         <!-- Manga 3 -->
-        <div class="MangaBox ONE">
+        <div class="MangaBox ONE SEI ON">
 
       
           <a href="url" class="MangaLink">URL: https://myanimelist.net/manga/44347/One_Punch-Man</a>
@@ -155,13 +174,13 @@
           </div>
     
           <div class="PublisherTitle">Publisher:</div>
-          <div class="Publisher">Hakusensha</div>
+          <div class="Publisher">Shueisha</div>
     
           <div class="VolumesTitle">Volumes:</div>
-          <div class="Volumes">1</div>
+          <div class="Volumes">27 (137 Chapters)</div>
     
           <div class="AdaptionsTitle">Adaptions:</div>
-          <div class="Adaptions">None</div>
+          <div class="Adaptions">One Punch Man (2015 - Present) - Anime</div>
 
           <div class="GenreTitle">Genre:</div>
           <div class="Genre">Action, Comedy</div>
@@ -180,10 +199,157 @@
             <span class="fa fa-star "></span></div>
     
           <div class="StartedTitle">Started:</div>
-          <div class="Started">February 1989</div>
+          <div class="Started">2012</div>
     
           <div class="FinishedTitle">Finished: </div>
-          <div class="Finished">February 1989</div>
+          <div class="Finished">Ongoing</div>
     
         </div>
+
+                <!-- Manga 4 -->
+                <div class="MangaBox ONE SHO FIN">
+
+      
+                  <a href="url" class="MangaLink">URL: https://myanimelist.net/manga/60783/Mob_Psycho_100?q=Mob%20Psycho%201&cat=manga</a>
+            
+                  <div class="MangaName">Manga Name: Mob Psycho 100</div>
+            
+                  <div class="Author">Author: One</div>
+                  
+                  <div class="MangaImageContainer">
+            
+                    <img class="MangaImg" width="800" height="500"src="./images/Mob.jpg" alt="Saitama" />
+            
+                  </div>
+            
+                  <div class="PublisherTitle">Publisher:</div>
+                  <div class="Publisher">Shogakukan</div>
+            
+                  <div class="VolumesTitle">Volumes:</div>
+                  <div class="Volumes">16 (109 Chapters)</div>
+            
+                  <div class="AdaptionsTitle">Adaptions:</div>
+                  <div class="Adaptions">Mob Psycho 100 (2016 - 2022) - Anime</div>
+        
+                  <div class="GenreTitle">Genre:</div>
+                  <div class="Genre">Action, Comedy, Supernatural</div>
+        
+                  <div class="ThemesTitles">Themes:</div>
+                  <div class="Themes">Super Power</div>
+            
+                  <div class="DemographicTitle">Demographic:</div>
+                  <div class="Demographic">Shonen</div>
+            
+                  <div class="RatingTitle">Personal Rating:</div>
+                  <div class="Rating"><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span></div>
+            
+                  <div class="StartedTitle">Started:</div>
+                  <div class="Started">April 2012</div>
+            
+                  <div class="FinishedTitle">Finished: </div>
+                  <div class="Finished">December 2017</div>
+            
+                </div>
+
+
+                  <!-- Manga 5 -->
+                  <div class="MangaBox TI SEI ON">
+
+      
+                    <a href="url" class="MangaLink">URL: https://myanimelist.net/manga/656/Vagabond</a>
+              
+                    <div class="MangaName">Manga Name: Vagabond</div>
+              
+                    <div class="Author">Author: Takehiko Inoue</div>
+                    
+                    <div class="MangaImageContainer">
+              
+                      <img class="MangaImg" width="800" height="500"src="./images/Musashi.jpg" alt="Saitama" />
+              
+                    </div>
+              
+                    <div class="PublisherTitle">Publisher:</div>
+                    <div class="Publisher">Kodansha</div>
+              
+                    <div class="VolumesTitle">Volumes:</div>
+                    <div class="Volumes">37 Volumes (327 Chapters)</div>
+              
+                    <div class="AdaptionsTitle">Adaptions:</div>
+                    <div class="Adaptions">None</div>
+          
+                    <div class="GenreTitle">Genre:</div>
+                    <div class="Genre">Action, Adventure</div>
+          
+                    <div class="ThemesTitles">Themes:</div>
+                    <div class="Themes">Historical, Samarai</div>
+              
+                    <div class="DemographicTitle">Demographic:</div>
+                    <div class="Demographic">Seinen</div>
+              
+                    <div class="RatingTitle">Personal Rating:</div>
+                    <div class="Rating"><span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span></div>
+              
+                    <div class="StartedTitle">Started:</div>
+                    <div class="Started">September 1998</div>
+              
+                    <div class="FinishedTitle">Finished: </div>
+                    <div class="Finished">Ongoing (Hiatus)</div>
+              
+                  </div>
     
+                                    <!-- Manga 6 -->
+                                    <div class="MangaBox TI SHO FIN">
+
+      
+                                      <a href="url" class="MangaLink">URL: https://myanimelist.net/manga/656/Vagabond</a>
+                                
+                                      <div class="MangaName">Manga Name: Slam Dunk</div>
+                                
+                                      <div class="Author">Author: Takehiko Inoue</div>
+                                      
+                                      <div class="MangaImageContainer">
+                                
+                                        <img class="MangaImg" width="800" height="500"src="./images/Slam Dunk.jpg" alt="Saitama" />
+                                
+                                      </div>
+                                
+                                      <div class="PublisherTitle">Publisher:</div>
+                                      <div class="Publisher">Shueisha</div>
+                                
+                                      <div class="VolumesTitle">Volumes:</div>
+                                      <div class="Volumes">31 Volumes (276 Chapters)</div>
+                                
+                                      <div class="AdaptionsTitle">Adaptions:</div>
+                                      <div class="Adaptions">Slam Dunk (1993 - 1996) - Anime</div>
+                            
+                                      <div class="GenreTitle">Genre:</div>
+                                      <div class="Genre">Sports</div>
+                            
+                                      <div class="ThemesTitles">Themes:</div>
+                                      <div class="Themes">School, Team Sports</div>
+                                
+                                      <div class="DemographicTitle">Demographic:</div>
+                                      <div class="Demographic">Shonen</div>
+                                
+                                      <div class="RatingTitle">Personal Rating:</div>
+                                      <div class="Rating"><span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star "></span></div>
+                                
+                                      <div class="StartedTitle">Started:</div>
+                                      <div class="Started">October 1990</div>
+                                
+                                      <div class="FinishedTitle">Finished: </div>
+                                      <div class="Finished">June 1996</div>
+                                
+                                    </div>

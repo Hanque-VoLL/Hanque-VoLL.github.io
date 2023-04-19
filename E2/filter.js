@@ -1,4 +1,3 @@
-
 function filterCategory(filterBy, buttonClicked){
 
   let itemsToFilter = Array.from(document.getElementsByClassName("MangaBox"));
@@ -27,4 +26,3 @@ function filterCategory(filterBy, buttonClicked){
   }
 
 }
-

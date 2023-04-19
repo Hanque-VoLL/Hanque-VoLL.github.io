@@ -22,3 +22,4 @@ for(let fruit of fruitArray){
         console.log(fruit);
     }
 }
+
