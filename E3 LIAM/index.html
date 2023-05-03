@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Loading Page</title>
+
+    <script src="./fakeLoad.js" defer></script>
+
+  </head>
+
+  <body id="load-body">
+
+      <h1>Haruomi Hosono</h1>
+
+       <!-- I added the hover function with an additional wiggle animation so that it makes the button stand out from the heading. The text size increases so that the user understands it's importance and it also looks much more appealing to click. Also implemented the active pseudo class so that the user knows they've pressed on the button -->
+      <button id="load-link" onclick="loadPageAfterDelay(10000, './hosono.html')">Click to Load Page
+      </button>
+
+       <!-- This is the loader circle. I added this because it gives an indication to the user on if the website is changing pages or not as before there was no way of knowing if it was going to change. BTW this took two hours to figure out myself, i tried every possible thing except the actual solution. This was an absolute pain. Not because it was hard but because my brain is fried. I'm sorry but this had to be said.   -->
+      <div id="load-throbber" class="loader"></div>
+
+
+  </body>
+
+</html>
