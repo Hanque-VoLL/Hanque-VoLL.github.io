@@ -1,0 +1,193 @@
+*{
+  box-sizing: border-box;
+  background-origin: border-box;
+  margin: 0;
+}
+
+
+:root{
+
+  --col-01:#171219;
+  --col-02:#ffffff;
+  --col-03:#5252ff;
+  --col-04:#b6e878;
+  font-size: 16px;
+}
+
+/* Implemented a white border as it signifies to the user that all the important information 
+that they need to use is within the white border */
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--col-01);
+  color: var(--col-02);
+  padding: 5vw;
+  border-radius: 10px;
+  border: solid  #9a8888;
+  border-width: 10px 10px 10px 10px;
+}
+
+  h1{
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    top: 2px;
+    right: 470px;
+  }
+
+
+.video-player-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Added a red border around the video so that the user knows how large it'll be*/
+.video-element-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  border:solid;
+  border-color:rgb(147, 24, 24)
+}
+
+#videoElement{
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#videoPlayOverlay{
+  width: 8rem;
+  height: 8rem;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: center;
+  align-self: center;
+  opacity: 0.6;
+  display: none;
+}
+
+.video-controls-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+#controlsWrapper{
+  display: none;
+}
+
+.video-control-button{
+  width: 2rem;
+  height: 2rem;
+  padding: .1rem;
+  border: none;
+  cursor: pointer;
+}
+.video-control-button:hover{
+  background-color: var(--col-05);
+}
+.video-control-button:active{
+  background-color: var(--col-06);
+}
+.button-icon{
+  pointer-events: none;
+}
+
+#playButton{
+  background-image: url('./icons/play.svg');
+}
+
+.video-progress-bar{
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  height: 2rem;
+  flex-grow: 1;
+  cursor: pointer;
+  background-color: var(--col-01);
+  box-shadow: 0 1px 2px var(--col-02) inset;
+}
+::-moz-progress-bar {
+  background-color: var(--col-02);
+}
+
+::-webkit-progress-bar {
+  background-color: var(--col-01);
+  box-shadow: 0 1px 2px var(--col-02) inset;
+}
+::-webkit-progress-value {
+  background-color: var(--col-02);
+}
+
+.timeline-loading{
+  background-image: -moz-repeating-linear-gradient(45deg, var(--col-03) 0% 2%, transparent 2% 4%, red 4%);
+  background-size: 200% 100%;
+  animation: loadingAnimation 4s linear infinite;
+}
+
+@keyframes loadingAnimation {
+  100%{
+    background-position: 50% 0%;
+  }
+}
+
+/* Playback speed */
+
+.slow{
+  line-height: 1rem;
+  background-color: transparent;
+  border: 0;
+  color: rgb(255, 255, 255);
+}
+
+.slow:hover{
+  font-size: 20px;
+  color: #ff0000;
+}
+
+/* A hover and active psuedo function helps the user understand if the button is being pressed or not */
+
+.slow:active{
+  color:blue;
+}
+
+
+.normal{
+  line-height: 1rem;
+  background-color: transparent;
+  border: 0;
+  color: rgb(255, 255, 255);
+}
+
+.normal:hover{
+  font-size: 20px;
+  color: #ff0000;
+}
+
+
+.normal:active{
+  color:blue;
+}
+
+.fast{
+  line-height: 1rem;
+  background-color: transparent;
+  border: 0;
+  color: rgb(255, 255, 255);
+}
+
+.fast:hover{
+  font-size: 20px;
+  color: #ff0000;
+}
+
+
+.fast:active{
+  color:blue;
+}
