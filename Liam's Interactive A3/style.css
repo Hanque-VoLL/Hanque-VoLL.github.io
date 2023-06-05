@@ -1,0 +1,180 @@
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* I wanted everything to be centred as it was aesthetically pleasing and made it look structurally better */
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+h2{
+  font-size: 60px;
+  background: #eee;
+  padding: 8px 24px;
+  border-radius: 16px;
+}
+
+/* this is to adjust the button size, colour and text font */
+Button {
+  font-size: 60px;
+  background: #eee;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 8px 24px;
+  border-radius: 16px;
+}
+
+/* Added a hover and active pseudo function so that the user notices that the button is interactable with and it gives feedback to them that they've pressed it */
+.PK:hover {
+  color: red;
+}
+
+.PK:active {
+  color: rgb(55, 0, 255);
+} 
+
+.SM:hover {
+  color: red;
+}
+
+.SM:active {
+  color: rgb(55, 0, 255);
+} 
+
+.NG:hover {
+  color: red;
+}
+
+.NG:active {
+  color: rgb(55, 0, 255);
+} 
+
+.SN:hover {
+  color: red;
+}
+
+.SN:active {
+  color: rgb(55, 0, 255);
+} 
+
+.CK:hover {
+  color: red;
+}
+
+.CK:active {
+  color: rgb(55, 0, 255);
+} 
+
+.DC:hover {
+  color: red;
+}
+
+.DC:active {
+  color: rgb(55, 0, 255);
+}
+
+.AL:hover {
+  color: red;
+}
+
+.AL:active {
+  color: rgb(55, 0, 255);
+} 
+
+.SW:hover {
+  color: red;
+}
+
+.SW:active {
+  color: rgb(55, 0, 255);
+} 
+
+.MC:hover {
+  color: red;
+}
+
+.MC:active {
+  color: rgb(55, 0, 255);
+} 
+
+.HM:hover {
+  color: red;
+}
+
+.HM:active {
+  color: rgb(55, 0, 255);
+} 
+
+/* The background attachment "fixed" function allows the background to wipe off the screen whilst scrolling. This is the parallax effect. The "cover" effect makes sure the image doesn't repeat at all */
+div:nth-child(1) {
+  background-image: url(img/Beach.jpg);
+  background-size: cover;
+}
+
+div:nth-child(2) {
+  background-image: url(img/Captain.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(3) {
+  height: 1000px;
+  background-image: url(img/Swordsman.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(4) {
+  background-image: url(img/Navigator.webp);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(5) {
+  background-image: url(img/Sniper.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(6) {
+  background-image: url(img/Cook.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(7) {
+  background-image: url(img/Doctor.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(8) {
+  background-image: url(img/Archeologist.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(9) {
+  background-image: url(img/Ship.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(10) {
+  background-image: url(img/Musician.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(11) {
+  background-image: url(img/Helmsman.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}

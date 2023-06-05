@@ -1,0 +1,220 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+  *{
+  box-sizing: border-box;
+  background-origin: border-box;
+  margin: 0;
+}
+
+:root{
+
+  --col-01:#171219;
+  --col-02:#f2fbeb;
+  --col-03:#5252ff;
+  --col-04:#eeb20d;
+  font-size: 16px;
+ 
+  scroll-behavior: smooth;
+}
+
+  
+  * { font-family: 'Poppins', 'Roboto', Arial, Helvetica, sans-serif }
+  
+  h1, h3 { margin: 0px; }
+  
+  h1 { font-size: 60px; }
+  
+  h3 { font-size: 24px; }
+  
+  h5 {
+    font-size: 14px;
+    margin: 0px;
+  }
+
+  
+  body {
+    margin: auto;
+    box-sizing: border-box;
+    padding: 1rem;
+    min-height: 100vh;
+    max-width: 1000px;
+    border-radius: 10px;
+    border: solid  #9a8888;
+    border-width: 10px 10px 10px 10px;
+    
+  }
+
+  /* A simple footer just so the information doesn't touch the bottom of the screen */
+  footer {
+    border-top: var(--col-04) 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    padding-top: 14px;
+  }
+  
+  #footer-right {
+    text-align: right;
+  }
+  
+  #main-title {
+    color: var(--col-03);
+    margin: 46px 32px;
+  }
+  
+  /* This is for the tabs. Added hover and active psuedo function so that the user knows they can be pressed and interacted with  */
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--col-04);
+    margin-bottom: 1rem;
+  }
+  
+  .nav a {
+    padding: 1rem;
+    color: rgb(222, 24, 24);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .nav a:hover, .active {
+    background-color: var(--col-03);
+  }
+  
+  .city {
+    background-color: #eeb20d;
+    color: white;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  li {
+    list-style-type: none;
+    color: var(--col-01);
+  }
+
+
+  Button {
+  font-size: 16px;
+  padding: 0;
+  font-family: 'Poppins', 'Roboto', Arial, Helvetica, sans-serif;
+  border: none;
+  background: none;  
+}
+
+.PK:hover {
+  color: red;
+}
+
+.PK:active {
+  color: rgb(55, 0, 255);
+} 
+
+.SM:hover {
+    color: red;
+  }
+  
+  .SM:active {
+    color: rgb(55, 0, 255);
+  } 
+  
+  .NG:hover {
+    color: red;
+  }
+  
+  .NG:active {
+    color: rgb(55, 0, 255);
+  } 
+  
+  .SN:hover {
+    color: red;
+  }
+  
+  .SN:active {
+    color: rgb(55, 0, 255);
+  } 
+  
+  .CK:hover {
+    color: red;
+  }
+  
+  .CK:active {
+    color: rgb(55, 0, 255);
+  } 
+  
+  .DC:hover {
+    color: red;
+  }
+  
+  .DC:active {
+    color: rgb(55, 0, 255);
+  }
+  
+  .AL:hover {
+    color: red;
+  }
+  
+  .AL:active {
+    color: rgb(55, 0, 255);
+  } 
+  
+  .SW:hover {
+    color: red;
+  }
+  
+  .SW:active {
+    color: rgb(55, 0, 255);
+  } 
+  
+  .MC:hover {
+    color: red;
+  }
+  
+  .MC:active {
+    color: rgb(55, 0, 255);
+  } 
+  
+  .HM:hover {
+    color: red;
+  }
+  
+  .HM:active {
+    color: rgb(55, 0, 255);
+  } 
+
+
+  /* I used this video from experiment 4 as a placeholder  */
+
+  .video-player-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+ 
+  .video-element-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border:solid;
+    border-color:rgb(147, 24, 24)
+  }
+  
+  #videoElement{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+
+
+
+ 
